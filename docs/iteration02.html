@@ -23,7 +23,6 @@
         
         //goData just announces itself for now
     function gotData(data){
-        alert("Function activated") 
         var text =''
         for (i=0; i< data.response.docs.length; i++){text = text + '<br />' + data.response.docs[i].headline.main
     }
